@@ -1,63 +1,66 @@
-
 <!DOCTYPE html>
-<html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌷COMING S00N🌷</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title> Home </title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <img src="image.jpg" alt="" class="image" />
+      <header>COMING SOON</header>
+      <p>
+        𝗢𝘂𝗿 𝘄𝗲𝗯𝘀𝗶𝘁𝗲 𝗶𝘀 𝘂𝗻𝗱𝗲𝗿 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻. 𝗪𝗲'𝗿𝗲 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗵𝗮𝗿𝗱 𝘁𝗼 𝗶𝗺𝗽𝗿𝗼𝘃𝗲 𝗼𝘂𝗿 𝘄𝗲𝗯𝘀𝗶𝘁𝗲 𝗮𝗻𝗱 𝘄𝗲'𝗹𝗹 𝗿𝗲𝗮𝗱𝘆 𝘁𝗼 𝗹𝗮𝘂𝗻𝗰𝗵 𝗮𝗳𝘁𝗲𝗿:...
+</p>
+      <div class="time-content">
+        <div class="time days">
+          <span class="number"></span>
+          <span class="text">days</span>
+        </div>
+        <div class="time hours">
+          <span class="number"></span>
+          <span class="text">hours</span>
+        </div>
+        <div class="time minutes">
+          <span class="number"></span>
+          <span class="text">minutes</span>
+        </div>
+        <div class="time seconds">
+          <span class="number"></span>
+          <span class="text">seconds</span>
+        </div>
+      </div>
 
+      <div class="email-content">
+        <p>‎𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 𝙣𝙤𝙬 𝙩𝙤 𝙜𝙚𝙩 𝙩𝙝𝙚 𝙡𝙖𝙩𝙚𝙨𝙩 𝙪𝙥𝙙𝙖𝙩𝙚𝙨♪</p>
 
-
-    
-    <!-- 
-      Add Google Tag Here!
-    -->
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="./index.html">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./Portfolio.html"> Portfolio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./Project.html"> Project </a>
-        </li>
-
-
-      </ul>
-
+        <div class="input-box">
+        <input id="emailInput" type="email" placeholder="Enter your email">
+        <button onclick="validateEmail();">Notify Me</button>
     </div>
-  </nav>
 
-  <div class="jumbotron text-center">
-    <h1 class="display-4 ">Hello, world!</h1>
-    <p class="lead">
-      This will be the homepage for this website
-    </p>
-    <hr class="my-4">
+    <!-- Add your JavaScript logic here -->
+    <script src="js/script.js"></script>
+    <script>
+      function validateEmail() {
+                  const emailInput = document.getElementById('emailInput');
+                  const email = emailInput.value.trim();
+
+                  if (email === '') {
+                      alert('𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙛𝙖𝙞𝙡𝙚𝙙😥! 𝙋𝙡𝙚𝙖𝙨𝙚 𝙚𝙣𝙩𝙚𝙧 𝙖 𝙫𝙖𝙡𝙞𝙙 𝙚𝙢𝙖𝙞𝙡. 𝙏𝙝𝙖𝙣𝙠 𝙮𝙤𝙪 ♪.');
+                  } else {
+                      // Simulate success feedback (replace with your desired behavior)
+                      alert('𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙖𝙘𝙘𝙚𝙥𝙩𝙚𝙙 𝙨𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✔️.𝙔𝙤𝙪 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙧𝙚𝙙𝙞𝙧𝙚𝙘𝙩𝙚𝙙 𝙩𝙤 𝙨𝙚𝙣𝙙 𝙖𝙣 𝙚𝙢𝙖𝙞𝙡 𝙬𝙞𝙩𝙝 𝙩𝙝𝙚 𝙧𝙚𝙦𝙪𝙚𝙨𝙩 𝙤𝙛 𝙖 𝙣𝙚𝙬 𝙥𝙡𝙖𝙩𝙛𝙤𝙧𝙢, 𝙥𝙡𝙚𝙖𝙨𝙚 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙊𝙆 𝙩𝙤 𝙥𝙧𝙤𝙘𝙚𝙚𝙙. 𝙏𝙝𝙖𝙣𝙠 𝙮𝙤𝙪 ');
+                      // Redirect to another page
+                      window.location.href = 'mailto:gk-fy@iname.com?subject=Regarding%20the%20Coming%20Platform'; // Replace with the actual page URL
+                  }
+              }
+          </script>
 
 
-  </div>
 
-</body>
-
-</html>
